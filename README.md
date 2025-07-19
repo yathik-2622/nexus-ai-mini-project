@@ -34,7 +34,7 @@
 
 ## 📁 Download This Project
 
-- 👉 [Live Demo](https://yathik2622.github.io/nexus-ai-mini-project/)
+- 👉 [Live Demo](https://yathik-2622.github.io/nexus-ai-mini-project/)
 - 📄 [PDF Guide](./Nexus_AI_Mini_Project_Guide.pdf)
 
 ---
