@@ -61,9 +61,9 @@ function takeCommand(message) {
     } else if ((message.includes("can you open Chatgpt")) || message.includes('chatgpt') || message.includes('open chatgpt')) {
         window.open("https://openai.com/chatgpt/overview/", "_blank");
         speak("Opening chat GPT...");
-    } else if (message.includes("open gpt chat page")) {
+    } else if (message.includes("open gpt home page")) {
         window.open("https://chatgpt.com/", "_blank");
-        speak("Opening GPT with your account logged in...");
+        speak("Opening GPT home page...");
     } else if (message.includes('wikipedia')) {
         window.open(`https://en.wikipedia.org/wiki/${message.replace("wikipedia", "").trim()}`, "_blank");
         const finalText = "This is what I found on Wikipedia regarding " + message;
