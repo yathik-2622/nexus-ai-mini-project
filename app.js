@@ -58,7 +58,7 @@ function takeCommand(message) {
     } else if ((message.includes("\nopen facebook")) || message.includes('facebook') || message.includes('can you open facebook')) {
         window.open("https://facebook.com", "_blank");
         speak("Opening Facebook...");
-    } else if ((message.includes("can you open gpt")) || message.includes('chatgpt') || message.includes('open chatgpt')) {
+    } else if ((message.includes("can you open gpt")) || message.includes('open chatgpt') || message.includes('open gpt')) {
         window.open("https://openai.com/chatgpt/overview/", "_blank");
         speak("Opening chat GPT...");
     } else if (message.includes("open gpt home page")) {
